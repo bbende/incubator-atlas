@@ -416,6 +416,7 @@
         <module>webapp</module>
         <module>docs</module>
         <module>addons/hive-bridge</module>
+        <module>addons/nifi-bridge</module>
         <module>distro</module>
     </modules>
 
@@ -1528,6 +1529,12 @@
                         <exclude>.bowerrc</exclude>
                         <exclude>*.json</exclude>
                         <exclude>**/overlays/**</exclude>
+                        <exclude>**/.bower-cache/**</exclude>
+                        <exclude>**/.bower-components/**</exclude>
+                        <exclude>**/.bower-registry/**</exclude>
+                        <exclude>**/node/**</exclude>
+                        <exclude>**/node_modules/**</exclude>
+                        <exclude>*.java-version</exclude>
                     </excludes>
                 </configuration>
                 <executions>

@@ -42,3 +42,6 @@ test-output
 # other files
 .DS_Store
 *.swp
+
+# jenv
+.java-version
